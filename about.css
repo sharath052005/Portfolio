@@ -124,3 +124,123 @@ body{
 .link:hover{
     background-color: #0459ae;
 }
+
+/* Existing styles remain the same above this */
+
+/* ===============================
+   RESPONSIVE DESIGN
+   =============================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .nav {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 40px;
+    }
+
+    .sharath {
+        width: 60%;
+        border-radius: 40px;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 52px;
+        line-height: 72px;
+    }
+
+    .who .des {
+        width: 90%;
+        font-size: 17px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 12px;
+        height: auto;
+        padding: 16px 20px;
+    }
+
+    .nav-tools {
+        gap: 16px;
+    }
+
+    .nav-tools a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .sharath {
+        width: 90%;
+        border-radius: 24px;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .who {
+        gap: 16px;
+        margin-top: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .des {
+        width: 95%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .top {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .last {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .link {
+        font-size: 16px;
+        padding: 6px 16px;
+    }
+}
